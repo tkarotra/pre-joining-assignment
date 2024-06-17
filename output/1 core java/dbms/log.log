@@ -1,0 +1,21 @@
+21:06:17:420 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - ---------------- PreparedStatement ----------------
+21:06:17:447 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Asami, IsOfficial: F, Percentage: 60.0
+21:06:17:448 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Bengali, IsOfficial: F, Percentage: 60.0
+21:06:17:448 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Gujarati, IsOfficial: F, Percentage: 60.0
+21:06:17:449 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Hindi, IsOfficial: T, Percentage: 60.0
+21:06:17:449 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Kannada, IsOfficial: F, Percentage: 60.0
+21:06:17:449 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Malajalam, IsOfficial: F, Percentage: 60.0
+21:06:17:449 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Marathi, IsOfficial: F, Percentage: 60.0
+21:06:17:450 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Orija, IsOfficial: F, Percentage: 60.0
+21:06:17:450 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Punjabi, IsOfficial: F, Percentage: 60.0
+21:06:17:450 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Tamil, IsOfficial: F, Percentage: 60.0
+21:06:17:450 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Telugu, IsOfficial: F, Percentage: 60.0
+21:06:17:450 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Language: Urdu, IsOfficial: F, Percentage: 60.0
+21:06:17:453 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Rows updated: 6
+
+21:06:17:453 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - ---------------- CallableStatement ----------------
+21:06:17:465 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Percentage updated successfully.
+21:06:17:471 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Country Code: IND
+21:06:17:472 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Official Language Count: 1
+21:06:17:472 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Total Language Count: 12
+21:06:17:473 [main] INFO  com.assignment.dbms.StatementsProcedureDemo - Official Language Percentage: 60.0

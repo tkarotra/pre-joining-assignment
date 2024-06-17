@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="filename">./logs</Property>
+	</Properties>
+	<Appenders>
+		<RollingFile name="core-basics"
+			fileName="${filename}/core/basics/log.log"
+			filePattern="${filename}/core/basics/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="core-oops"
+			fileName="${filename}/core/oops/log.log"
+			filePattern="${filename}/core/oops/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="core-exceptionHandling"
+			fileName="${filename}/core/exceptionHandling/log.log"
+			filePattern="${filename}/core/exceptionHandling/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="core-collectionsFramework"
+			fileName="${filename}/core/collectionsFramework/log.log"
+			filePattern="${filename}/core/collectionsFramework/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="core-multithreading"
+			fileName="${filename}/core/multithreading/log.log"
+			filePattern="${filename}/core/multithreading/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="core-files"
+			fileName="${filename}/core/files/log.log"
+			filePattern="${filename}/core/files/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		<RollingFile name="dbms"
+			fileName="${filename}/dbms/log.log"
+			filePattern="${filename}/dbms/log-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		
+		<Console name="Console1" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss:SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.assignment.core.basics" level="info" additivity="false">
+			<AppenderRef ref="core-basics" />
+		</Logger>
+		<Logger name="com.assignment.core.oops" level="info" additivity="false">
+			<AppenderRef ref="core-oops" />
+		</Logger>
+		<Logger name="com.assignment.core.exceptionHandling" level="info" additivity="false">
+			<AppenderRef ref="core-exceptionHandling" />
+		</Logger>
+		<Logger name="com.assignment.core.collectionsFramework" level="info" additivity="false">
+			<AppenderRef ref="core-collectionsFramework" />
+		</Logger>
+		<Logger name="com.assignment.core.multithreading" level="info" additivity="false">
+			<AppenderRef ref="core-multithreading" />
+		</Logger>
+		<Logger name="com.assignment.core.files" level="info" additivity="false">
+			<AppenderRef ref="core-files" />
+		</Logger>
+		<Logger name="com.assignment.dbms" level="info" additivity="false">
+			<AppenderRef ref="dbms" />
+		</Logger>
+		<Root level="fatal">
+			<AppenderRef ref="Console1" />
+		</Root>
+	</Loggers>
+</Configuration>

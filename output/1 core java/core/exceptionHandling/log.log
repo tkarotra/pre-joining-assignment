@@ -1,0 +1,18 @@
+22:11:46:282 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Inside Try Block
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Throw IOException
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Inside IOException Catch Block
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Caught an IOException: Simulated IOException
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - IOException Catch Block Complete
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Inside Finally Block
+22:11:46:284 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - This is the finally block
+22:11:46:285 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Finally Block Complete
+
+22:11:46:285 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Caught custom exception: Value is less than 10
+
+22:11:46:285 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Exception caught: / by zero
+
+22:11:46:286 [main] INFO  com.assignment.core.exceptionHandling.ChildClassRemoveThrows - Override method and remove throws clause
+22:11:46:286 [main] INFO  com.assignment.core.exceptionHandling.ParentClass - performTaskDoesNotThrow method called
+22:11:46:286 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - 
+22:11:46:287 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Exception caught: performTaskThrows - FileNotFound Exception
+22:11:46:287 [main] INFO  com.assignment.core.exceptionHandling.ExceptionHandlingDemo - Exception caught: performTaskDoesNotThrow - IllegalArgumentException Exception

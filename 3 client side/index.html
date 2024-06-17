@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="container my-5">
+            <form >
+                <h4>Form Elements</h4>
+                <!-- input, textarea -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="input">Input </label>
+                            <input type="text" class="form-control" id="input" placeholder="Enter input">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="textarea">Textarea </label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- select, datalist -->
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="select">Select </label>
+                            <select class="form-select" id="select">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                                <option>Option 4</option>
+                                <option>Option 5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="select">Select (multiple)</label>
+                            <select multiple class="form-select" id="select">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                                <option>Option 4</option>
+                                <option>Option 5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="exampleDataList" class="form-label">Datalists</label>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                            <datalist id="datalistOptions">
+                                <option value="San Francisco"></option>
+                                <option value="New York"></option>
+                                <option value="Seattle"></option>
+                                <option value="Los Angeles"></option>
+                                <option value="Chicago"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-5" />
+
+                <h4>Input Element - Types</h4>
+                <!-- text, emai, number -->
+                <div class="row mb-4 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="text">Input - <span class="text-primary">text</span></label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" class="form-control" id="text" placeholder="Enter input - text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="email">Input - <span class="text-primary">email</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter input - email">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="number">Input - <span class="text-primary">number</span></label>
+                            <input type="number" step="0.01" class="form-control" id="number" placeholder="Enter input - number">
+                        </div>
+                    </div>
+                </div>
+                <!-- tel, url, search -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="tel">Input - <span class="text-primary">tel</span></label>
+                            <input type="tel" class="form-control" id="tel" placeholder="Enter input - tel">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="url">Input - <span class="text-primary">url</span></label>
+                            <input type="url" class="form-control" id="url" placeholder="Enter input - url">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="search">Input - <span class="text-primary">search</span></label>
+                            <input type="search" class="form-control" id="search" placeholder="Enter input - search">
+                        </div>
+                    </div>
+                </div>
+                <!-- password, hidden, image -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="password">Input - <span class="text-primary">password</span></label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter input - password">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="hidden">Input - <span class="text-primary">hidden</span></label>
+                            <input type="hidden" class="form-control" id="hidden">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="image">Input - <span class="text-primary">image</span></label><br />
+                            <input type="image" id="image" alt="Input Image" src="	https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- date, time, datetime-loacl -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="date">Input - <span class="text-primary">date</span></label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="time">Input - <span class="text-primary">time</span></label>
+                            <input type="time" class="form-control" id="time">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="datetime-local">Input - <span class="text-primary">datetime-local</span></label>
+                            <input type="datetime-local" class="form-control" id="datetime-local">
+                        </div>
+                    </div>
+                </div>
+                <!-- month, week -->
+                <div class="row mb-4">
+                    <div class="col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="month">Input - <span class="text-primary">month</span></label>
+                            <input type="month" class="form-control" id="month">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="week">Input - <span class="text-primary">week</span></label>
+                            <input type="week" class="form-control" id="week">
+                        </div>
+                    </div>
+                </div>
+                <!-- checkbox, radio -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Input - <span class="text-primary">checkbox</span></label> <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+                                <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
+                                <label class="form-check-label" for="inlineCheckbox3">Option 3</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Input - <span class="text-primary">checkbox (.form-switch)</span></label> <br>
+                            <div class="form-check form-switch mb-3" dir="ltr">
+                                <input type="checkbox" class="form-check-input" id="customSwitch1" checked>
+                                <label class="form-check-label" for="customSwitch1">Toggle this switch element</label>
+                            </div>
+                            <div class="form-check form-switch form-switch-md mb-3" dir="ltr">
+                                <input type="checkbox" class="form-check-input" id="customSwitch1">
+                                <label class="form-check-label" for="customSwitch1">Toggle this switch element</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Input - <span class="text-primary">radio button</span></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">Option 1 </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">Option 2 </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                <label class="form-check-label" for="exampleRadios3">Option 3 </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- color, range, file -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="color">Input - <span class="text-primary">color</span></label>
+                            <input type="color" class="form-control form-control-color" id="color">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="range">Input - <span class="text-primary">range</span></label>
+                            <input type="range" class="form-range" id="range">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="file">Input - <span class="text-primary">file</span></label>
+                            <input type="file" class="form-control" id="file">
+                        </div>
+                    </div>
+                </div>
+                <!-- button, reset, submit -->
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="button">Input - <span class="text-primary">button</span></label>
+                            <input type="button" class="form-control btn btn-primary" value="Button" id="button">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="reset">Input - <span class="text-primary">reset</span></label>
+                            <input type="reset" class="form-control btn btn-primary" value="Reset" id="reset">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="submit">Input - <span class="text-primary">submit</span></label>
+                            <input type="submit" class="form-control btn btn-primary" value="Submit" id="submit">
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-5" />
+
+                <h4>Input Element - Attributes</h4>
+                <!-- multiple, accept, capture -->
+                <div class="row mb-4 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>File - <span class="text-primary">multiple, accept</span> (pdf and excel files only)</label>
+                                <input type="file" class="form-control" multiple accept=".pdf, .xls, .xlsx">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>File - <span class="text-primary">capture</span> (front-camera image)</label>
+                            <input type="file" class="form-control" capture="user" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>File - <span class="text-primary">capture</span> (back-camera video)</label>
+                            <input type="file" class="form-control" capture="environment" accept="video/*">
+                        </div>
+                    </div>
+                </div>
+                <!-- step, value, minlength, maxlength, placeholder, readonly -->
+                <div class="row mb-4 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Number - <span class="text-primary">value, step</span> (0.3)</label>
+                                <input type="number" class="form-control" step="0.3" value="13">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Search - <span class="text-primary">maxlength, minlength, placeholder</span></label>
+                            <input type="search" class="form-control" maxlength="15" minlength="10" placeholder="This is the placeholder">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>URL - <span class="text-primary">readonly, value</span></label>
+                            <input type="url" class="form-control" value="www.cant-edit.readonly.com" readonly>
+                        </div>
+                    </div>
+                </div>
+                <!-- min, max, minlength, maxlength, pattern, placeholder, required -->
+                <div class="row mb-4 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Date - <span class="text-primary">max, min</span></label>
+                                <input type="date" class="form-control" max="2024-06-17" min="2024-06-10">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Text - <span class="text-primary">maxlength, minlength, placeholder</span></label>
+                            <input type="text" class="form-control" maxlength="15" minlength="10" placeholder="This is the placeholder">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Text - <span class="text-primary">required, pattern</span> (atleast 3 and only lowercase alphabets allowed)</label>
+                            <input type="text" class="form-control" pattern="[a-z]{3,}" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- src, alt, width, height, checked, disabled -->
+                <div class="row mb-4 mt-3">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="image">Image - <span class="text-primary">src, alt, width, height</span></label><br />
+                            <input type="image" alt="Login Button Image" src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png" width="250" height="80">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label>Checkbox - <span class="text-primary">checked, disabled</span></label> <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+                                    <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked disabled>
+                                    <label class="form-check-label" for="inlineCheckbox3">Option 3</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <label>Radio - <span class="text-primary">checked, disabled</span></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label" for="exampleRadios1">Option 1 </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                <label class="form-check-label" for="exampleRadios2">Option 2 </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios3" value="option3" checked disabled>
+                                <label class="form-check-label" for="exampleRadios3">Option 3 </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary mb-5" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>

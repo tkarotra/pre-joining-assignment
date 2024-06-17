@@ -1,0 +1,63 @@
+22:03:56:498 [main] INFO  com.assignment.core.oops.InheritanceDemo - Accountant Details:
+22:03:56:502 [main] INFO  com.assignment.core.oops.Employee - Name: Vidhi
+22:03:56:503 [main] INFO  com.assignment.core.oops.Employee - Employee ID: 1001
+22:03:56:506 [main] INFO  com.assignment.core.oops.Employee - Salary: 200.0
+22:03:56:506 [main] INFO  com.assignment.core.oops.Accountant - Certification: CFA
+22:03:56:507 [main] INFO  com.assignment.core.oops.InheritanceDemo - 
+22:03:56:507 [main] INFO  com.assignment.core.oops.InheritanceDemo - Engineer Details:
+22:03:56:507 [main] INFO  com.assignment.core.oops.Employee - Name: Teesha
+22:03:56:507 [main] INFO  com.assignment.core.oops.Employee - Employee ID: 1002
+22:03:56:508 [main] INFO  com.assignment.core.oops.Employee - Salary: 100.0
+22:03:56:508 [main] INFO  com.assignment.core.oops.Engineer - Specialty: ETRX
+22:03:56:508 [main] INFO  com.assignment.core.oops.Engineer - 
+22:03:56:508 [main] INFO  com.assignment.core.oops.Engineer - 'displaySpecialty' method inside 'Engineer' class called
+22:03:56:509 [main] INFO  com.assignment.core.oops.InheritanceDemo - Engineer specialty: ETRX
+22:03:56:509 [main] INFO  com.assignment.core.oops.InheritanceDemo - 
+22:03:56:509 [main] INFO  com.assignment.core.oops.InheritanceDemo - Software Development Engineer Details:
+22:03:56:510 [main] INFO  com.assignment.core.oops.Employee - Name: Saachi
+22:03:56:510 [main] INFO  com.assignment.core.oops.Employee - Employee ID: 1003
+22:03:56:510 [main] INFO  com.assignment.core.oops.Employee - Salary: 300.0
+22:03:56:510 [main] INFO  com.assignment.core.oops.Engineer - Specialty: Computer Science
+22:03:56:510 [main] INFO  com.assignment.core.oops.SoftwareDevelopmentEngineer - Programming Language: Java, Python
+22:03:56:510 [main] INFO  com.assignment.core.oops.Engineer - 
+22:03:56:510 [main] INFO  com.assignment.core.oops.Engineer - 'displaySpecialty' method inside 'Engineer' class called
+22:03:56:510 [main] INFO  com.assignment.core.oops.InheritanceDemo - SDE specialty: Computer Science
+22:04:01:244 [main] INFO  com.assignment.core.oops.PolymorphismDemo - ---------------------------------------------------------
+22:04:01:247 [main] INFO  com.assignment.core.oops.PolymorphismDemo - ----- Compile-time Polymorpism -----
+22:04:01:247 [main] INFO  com.assignment.core.oops.AnimalPD - Animal makes a sound
+22:04:01:248 [main] INFO  com.assignment.core.oops.AnimalPD - Animal makes bark sound
+22:04:01:248 [main] INFO  com.assignment.core.oops.AnimalPD - Animal makes soft meow sound
+22:04:01:248 [main] INFO  com.assignment.core.oops.PolymorphismDemo - 
+
+22:04:01:248 [main] INFO  com.assignment.core.oops.PolymorphismDemo - ----- Runtime Polymorpism -----
+22:04:01:248 [main] INFO  com.assignment.core.oops.AnimalPD - Animal makes a sound
+22:04:01:249 [main] INFO  com.assignment.core.oops.DogPD - Dog barks
+22:04:01:249 [main] INFO  com.assignment.core.oops.CatPD - Cat meows
+22:04:05:963 [main] INFO  com.assignment.core.oops.AbstractionDemo - ---------------------------------------------------------
+22:04:05:965 [main] INFO  com.assignment.core.oops.AbstractionDemo - Dog Details:
+22:04:05:966 [main] INFO  com.assignment.core.oops.AnimalAD - Name: Puppy
+22:04:05:966 [main] INFO  com.assignment.core.oops.AnimalAD - Age: 3
+22:04:05:967 [main] INFO  com.assignment.core.oops.DogAD - Dog barks
+22:04:05:967 [main] INFO  com.assignment.core.oops.DogAD - Dog runs
+22:04:05:967 [main] INFO  com.assignment.core.oops.AbstractionDemo - 
+22:04:05:967 [main] INFO  com.assignment.core.oops.AbstractionDemo - Cat Details:
+22:04:05:967 [main] INFO  com.assignment.core.oops.AnimalAD - Name: Kitty
+22:04:05:967 [main] INFO  com.assignment.core.oops.AnimalAD - Age: 2
+22:04:05:967 [main] INFO  com.assignment.core.oops.CatAD - Cat meows
+22:04:05:967 [main] INFO  com.assignment.core.oops.CatAD - Cat prowls
+22:04:10:683 [main] INFO  com.assignment.core.oops.EncapsulationDemo - ---------------------------------------------------------
+22:04:10:691 [main] INFO  com.assignment.core.oops.EncapsulationDemo - Details: Name = Labrador, Species = Dog, Is Vegetarian = true, No. of Legs = 4
+22:04:17:036 [main] INFO  com.assignment.core.oops.InterfaceDemo - ---------------------------------------------------------
+22:04:17:038 [main] INFO  com.assignment.core.oops.InterfaceDemo - Dog Details:
+22:04:17:039 [main] INFO  com.assignment.core.oops.Dog - Name: Puppy
+22:04:17:039 [main] INFO  com.assignment.core.oops.Dog - Age: 3
+22:04:17:039 [main] INFO  com.assignment.core.oops.Dog - Dog barks
+22:04:17:039 [main] INFO  com.assignment.core.oops.Dog - Dog runs
+22:04:17:039 [main] INFO  com.assignment.core.oops.AnimalBehavior - The animal is sleeping
+22:04:17:039 [main] INFO  com.assignment.core.oops.InterfaceDemo - 
+22:04:17:039 [main] INFO  com.assignment.core.oops.InterfaceDemo - Cat Details:
+22:04:17:039 [main] INFO  com.assignment.core.oops.Cat - Name: Kitty
+22:04:17:039 [main] INFO  com.assignment.core.oops.Cat - Age: 2
+22:04:17:039 [main] INFO  com.assignment.core.oops.Cat - Cat meows
+22:04:17:039 [main] INFO  com.assignment.core.oops.Cat - Cat prowls
+22:04:17:040 [main] INFO  com.assignment.core.oops.AnimalBehavior - The animal is sleeping

@@ -1,0 +1,100 @@
+11:31:46:032 [main] INFO  com.assignment.core.files.CSVDemo - CSV File Created Successfully.
+11:31:46:035 [main] INFO  com.assignment.core.files.CSVDemo - Updating the CSV File Created.
+11:31:46:040 [main] INFO  com.assignment.core.files.CSVDemo - Reading the CSV File Created.
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - CountryCode, Language, IsOfficial, Percentage
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - USA, English, T, 80.0
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - USA, Spanish, F, 15.0
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - USA, French, F, 4.0
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - CAN, English, T, 70.0
+11:31:46:041 [main] INFO  com.assignment.core.files.CSVDemo - CAN, French, T, 20.0
+11:31:50:778 [main] INFO  com.assignment.core.files.TXTDemo - ---------------------------------------------------------
+11:31:50:782 [main] INFO  com.assignment.core.files.TXTDemo - TXT File Created Successfully.
+11:31:50:782 [main] INFO  com.assignment.core.files.TXTDemo - Updating the TXT File Created.
+11:31:50:783 [main] INFO  com.assignment.core.files.TXTDemo - Reading the TXT File Created.
+11:31:50:789 [main] INFO  com.assignment.core.files.TXTDemo - File content:
+11:31:50:789 [main] INFO  com.assignment.core.files.TXTDemo - This is the initial content of the file.
+11:31:50:789 [main] INFO  com.assignment.core.files.TXTDemo - This is the new content being appended to the file.
+11:31:54:464 [main] INFO  com.assignment.core.files.JSONDemo - ---------------------------------------------------------
+11:31:54:469 [main] INFO  com.assignment.core.files.JSONDemo - JSON File Created Successfully.
+11:31:54:469 [main] INFO  com.assignment.core.files.JSONDemo - Updating the JSON File Created.
+11:31:54:473 [main] INFO  com.assignment.core.files.JSONDemo - Reading the JSON File Created.
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - {
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - 	Id: P001
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - 	Name: Teesha Karotra
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - 	Age: 22
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - 	Salary: 12000
+11:31:54:475 [main] INFO  com.assignment.core.files.JSONDemo - },
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - {
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - 	Id: P002
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - 	Name: Saachi Karotra
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - 	Age: 18
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - 	Salary: 31000
+11:31:54:476 [main] INFO  com.assignment.core.files.JSONDemo - },
+11:31:59:453 [main] INFO  com.assignment.core.files.XMLDemo - ---------------------------------------------------------
+11:31:59:508 [main] INFO  com.assignment.core.files.XMLDemo - XML File Created Successfully.
+11:31:59:508 [main] INFO  com.assignment.core.files.XMLDemo - Updating the XML File Created.
+11:31:59:513 [main] INFO  com.assignment.core.files.XMLDemo - Reading the XML File Created.
+11:31:59:516 [main] INFO  com.assignment.core.files.XMLDemo - Root element: bookstore
+11:31:59:516 [main] INFO  com.assignment.core.files.XMLDemo - 
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Book 1:
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Category: COOKING
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Title: Everyday Italian
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Language: it
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Author: Giada De Laurentiis
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Year: 2020
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Price: 30.00
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - 
+11:31:59:517 [main] INFO  com.assignment.core.files.XMLDemo - Book 2:
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Category: CHILDREN
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Title: Harry Potter
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Language: en
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Author: J K. Rowling
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Year: 2005
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - Price: 29.99
+11:31:59:518 [main] INFO  com.assignment.core.files.XMLDemo - 
+11:32:04:385 [main] INFO  com.assignment.core.files.JDBCDemo - ---------------------------------------------------------
+11:32:04:529 [main] INFO  com.assignment.core.files.JDBCDemo - Database created successfully.
+11:32:04:557 [main] INFO  com.assignment.core.files.JDBCDemo - Table 'users' created successfully.
+11:32:04:559 [main] INFO  com.assignment.core.files.JDBCDemo - 3 rows inserted in 'users' table successfully.
+
+11:32:04:564 [main] INFO  com.assignment.core.files.JDBCDemo - Query: SELECT * FROM users ORDER BY country_code DESC
+11:32:04:565 [main] INFO  com.assignment.core.files.JDBCDemo - Query results:
+11:32:04:565 [main] INFO  com.assignment.core.files.JDBCDemo - User ID: 2
+11:32:04:565 [main] INFO  com.assignment.core.files.JDBCDemo - Name: Vidhi
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Email: vidhi@gmail.com
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Country: Canada
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code Name: IN
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code: 91
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Phone Number: 0987654321
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - User Password: password2
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - 
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - User ID: 3
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Name: Saachi
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Email: saachi@gmail.com
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Country: United Kingdom
+11:32:04:566 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code Name: UK
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code: 44
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Phone Number: 1122334455
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - User Password: password3
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - 
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - User ID: 1
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Name: Teesha
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Email: teesha@gmail.com
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Country: USA
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code Name: US
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code: 1
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Phone Number: 1234567890
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - User Password: password1
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - 
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - ------------------------------------------------------------------
+
+11:32:04:567 [main] INFO  com.assignment.core.files.JDBCDemo - Query: SELECT name, country, country_code FROM users WHERE country_code LIKE '%1%'
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Query results:
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Name: Teesha
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Country: USA
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code: 1
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - 
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Name: Vidhi
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Country: Canada
+11:32:04:568 [main] INFO  com.assignment.core.files.JDBCDemo - Country Code: 91
+11:32:04:569 [main] INFO  com.assignment.core.files.JDBCDemo - 

@@ -1,0 +1,6 @@
+CountryCode, Language, IsOfficial, Percentage
+USA, English, T, 80.0
+USA, Spanish, F, 15.0
+USA, French, F, 4.0
+CAN, English, T, 70.0
+CAN, French, T, 20.0

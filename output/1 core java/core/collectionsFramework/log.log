@@ -1,0 +1,65 @@
+22:12:14:495 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - ------------------------ List (Primitives) ------------------------
+22:12:14:497 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - List: [Mango, Apple, Lychee, Banana, Grapes]
+22:12:14:497 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - List size: 5
+22:12:14:497 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Index of 'Banana': 3
+22:12:14:498 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Remove 'Lychee' element: true
+22:12:14:498 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Does List contain 'Lychee': false
+22:12:14:498 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Get list element at index 1: Lychee
+
+22:12:14:508 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Sorted list: [Banana, Grapes, Lychee, Mango]
+22:12:14:508 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Array of List elements: [Banana, Grapes, Lychee, Mango]
+22:12:14:509 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Array to List: [Banana, Grapes, Lychee, Mango]
+
+22:12:14:509 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Traversing in forward direction
+22:12:14:511 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 0, value: Banana
+22:12:14:511 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 1, value: Grapes
+22:12:14:511 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 2, value: Lychee
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 3, value: Mango
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Traversing in backward direction
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 3, value: Mango
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 2, value: Lychee
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 1, value: Grapes
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - index: 0, value: Banana
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Is List empty: true
+22:12:14:512 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+
+
+22:12:14:513 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - ------------------------ List (Custom object) ------------------------
+22:12:14:513 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Sorted List of Employees using Comparable: 
+22:12:14:517 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: A1, Name: Saachi, Salary: 40000
+22:12:14:517 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: A2, Name: Vidhi, Salary: 50000
+22:12:14:517 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: B1, Name: Teesha, Salary: 60000
+22:12:14:517 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+
+
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - ------------------------ Set (Primitives) ------------------------
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Vowels LinkedHashSet Size: 6
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Vowels LinkedHashSet: [a, e, i, o, u]
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Vowels LinkedHashSet contains 'o': true
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Vowels LinkedHashSet is empty: true
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+
+
+22:12:14:518 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - ------------------------ Set (Custom object) ------------------------
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Sorted TreeSet of Employees using Comparator: 
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: B1, Name: Teesha, Salary: 60000
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: A2, Name: Vidhi, Salary: 50000
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Id: A1, Name: Saachi, Salary: 40000
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - 
+
+
+22:12:14:519 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - ------------------------ Map (Primitives & Custom Object) ------------------------
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Value of entry with key 'Emp1': Id: A2, Name: Vidhi, Salary: 50000
+
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Employees HashMap: {null=Id: A1, Name: Saachi, Salary: 40000, Emp1=Id: A2, Name: Vidhi, Salary: 50000, Emp3=Id: A1, Name: Saachi, Salary: 40000, Emp2=Id: B1, Name: Teesha, Salary: 60000}
+
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Value of entry with key 'null': Id: A2, Name: Vidhi, Salary: 50000
+
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Employees HashMap (removed null key entry): {Emp1=Id: A2, Name: Vidhi, Salary: 50000, Emp3=Id: A1, Name: Saachi, Salary: 40000, Emp2=Id: B1, Name: Teesha, Salary: 60000}
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Contains Key 'Emp4' in HashMap: false
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Contains Value 'employee1' object in HashMap: true
+
+22:12:14:520 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Keys in HashMap: [Emp1, Emp3, Emp2]
+22:12:14:521 [main] INFO  com.assignment.core.collectionsFramework.CollectionsDemo - Values in HashMap: [Id: A2, Name: Vidhi, Salary: 50000, Id: A1, Name: Saachi, Salary: 40000, Id: B1, Name: Teesha, Salary: 60000]

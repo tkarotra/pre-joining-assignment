@@ -1,0 +1,95 @@
+22:02:16:808 [main] INFO  com.assignment.core.basics.JavaBasics - Hello, my name is Teesha and I am 22 years old.
+22:02:16:810 [main] INFO  com.assignment.core.basics.JavaBasics - Name has been changed to Vidhi.
+22:02:16:810 [main] INFO  com.assignment.core.basics.JavaBasics - Hello, my name is Vidhi and I am 22 years old.
+22:02:25:054 [main] INFO  com.assignment.core.basics.JavaDatatypes - ---------------------------------------------------------
+22:02:25:057 [main] INFO  com.assignment.core.basics.JavaDatatypes - Primitive Data Types:
+22:02:25:057 [main] INFO  com.assignment.core.basics.JavaDatatypes - byte Datatype: 10
+22:02:25:058 [main] INFO  com.assignment.core.basics.JavaDatatypes - short Datatype: 100
+22:02:25:058 [main] INFO  com.assignment.core.basics.JavaDatatypes - int Datatype: 1000
+22:02:25:060 [main] INFO  com.assignment.core.basics.JavaDatatypes - long Datatype: 10000
+22:02:25:063 [main] INFO  com.assignment.core.basics.JavaDatatypes - float Datatype: 10.5
+22:02:25:063 [main] INFO  com.assignment.core.basics.JavaDatatypes - double Datatype: 100.5
+22:02:25:063 [main] INFO  com.assignment.core.basics.JavaDatatypes - boolean Datatype: false
+22:02:25:063 [main] INFO  com.assignment.core.basics.JavaDatatypes - char Datatype: A
+
+22:02:25:063 [main] INFO  com.assignment.core.basics.JavaDatatypes - Non-primitive Data Types:
+22:02:25:064 [main] INFO  com.assignment.core.basics.JavaDatatypes - String Class: This is an object of string class!
+22:02:25:064 [main] INFO  com.assignment.core.basics.JavaDatatypes - User-defined Class (Person): com.assignment.core.basics.Person@1ae8bcbc
+22:02:25:064 [main] INFO  com.assignment.core.basics.JavaDatatypes - User-defined Class (Name Variable): Teesha
+22:02:25:064 [main] INFO  com.assignment.core.basics.JavaDatatypes - User-defined Class (Age Variable): 22
+22:02:30:250 [main] INFO  com.assignment.core.basics.VariablesModifiers - ---------------------------------------------------------
+22:02:30:252 [main] INFO  com.assignment.core.basics.VariablesModifiers - Other Name of Humans is : Human
+22:02:30:253 [main] INFO  com.assignment.core.basics.VariablesModifiers - Updated Other Name of Humans is : Hominid
+22:02:30:253 [main] INFO  com.assignment.core.basics.VariablesModifiers - Scientific Name of Humans is : Homo sapiens
+22:02:30:255 [main] INFO  com.assignment.core.basics.Human - Hello, my name is Teesha and I am 22 years old. My scientific name is Homo sapiens
+22:02:30:255 [main] INFO  com.assignment.core.basics.Human - Hello, my name is Vidhi and I am 18 years old. My scientific name is Homo sapiens
+22:02:30:255 [main] INFO  com.assignment.core.basics.Human - Hello, my name is Teesha and I am 20 years old. My scientific name is Homo sapiens
+22:02:30:255 [main] INFO  com.assignment.core.basics.Human - Hello, my name is Vidhi Karotra and I am 18 years old. My scientific name is Homo sapiens
+22:02:35:696 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - ---------------------------------------------------------
+22:02:35:697 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - If statement
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Inside If
+
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - If-else statement
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Odd number
+
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - If-else-if statement
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Divisible by 3
+
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Nested-if statement
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Divisible by 6
+
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Switch statement
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Friday
+
+22:02:35:698 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - continue statement, for loop
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 1
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 2
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 4
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 5
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 7
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 8
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 
+
+22:02:35:700 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - break statement, while loop
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 0
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 1
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 2
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 3
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 
+
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - do while loop
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 0
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - 
+
+22:02:35:701 [main] INFO  com.assignment.core.basics.LoopsDecisionMaking - Before return statement
+22:02:41:104 [main] INFO  com.assignment.core.basics.StringsArrays - ---------------------------------------------------------
+22:02:41:107 [main] INFO  com.assignment.core.basics.StringsArrays - ------------- STRINGS -------------
+22:02:41:107 [main] INFO  com.assignment.core.basics.StringsArrays - Name String: teesha
+22:02:41:107 [main] INFO  com.assignment.core.basics.StringsArrays - Concatenated String: teesha Karotra
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Length of String: 14
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Upper Case String: TEESHA KAROTRA
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Lower Case String: teesha karotra
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Char at 4th Index in String: h
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Contains String: true
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - Substring of String: sha
+22:02:41:108 [main] INFO  com.assignment.core.basics.StringsArrays - First Occurence of String: 5
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - Last Occurence of String: 13
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - First Occurence of String (from 6th index): 8
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - String After Replacing 'a' with 'k': teeshk Kkrotrk
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - equals Method: false
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - equalsIgnoreCase Method: true
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - startsWith Method: true
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - endsWith Method: false
+
+22:02:41:109 [main] INFO  com.assignment.core.basics.StringsArrays - ------------- ARRAYS -------------
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - Array Elements: [4, 1, 3, 2, 5]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - Array Length: 5
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - Sorted Array (2nd to 5th Index) Elements: [4, 1, 2, 3, 5]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - Sorted Array Elements: [1, 2, 3, 4, 5]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - New Array: [3, 4, 5, 6, 7]
+
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - Multi Dimensional Array: [
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - 	[2, 4, 6, 8]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - 	[3, 6, 9, 12]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - 	[4, 8, 12, 16]
+22:02:41:110 [main] INFO  com.assignment.core.basics.StringsArrays - ]
